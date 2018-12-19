@@ -74,6 +74,8 @@ WebDriver driver;
     	String errMsg = loginPage.invalidUserNameErrMsg.getText();
     	
     	Assert.assertEquals(errMsg, "Invalid Login or Password.");
+    	
+    	System.out.println("Sample");
     }
     
     	
